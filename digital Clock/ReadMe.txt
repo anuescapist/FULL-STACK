@@ -48,9 +48,9 @@ display: flex;__________ to bring everything to center
 justify-content :center ____  it will bring content to the center
 
 
-background: url(http://-------------);
+background: url(http://-------);__ add 
 
-background-size:cover; _ it will remove line from side bar that used for scroll
+background-size:cover; _ it will remove scroll bar
 
 h1{} _____ here we are designing a h1 tag
 
@@ -60,5 +60,48 @@ letter- spacing: 4px;___ it will give space between each letter
 
 margin:5px;__ here we are creating space around elements, outside of any defined borders
 
+opacity: 0.7___ this property is used for transparency the hardness of color 
 
--------------------<java script>----------------------------
+.class .text___ when we are style two class at the same time
+
+ position: absolute;_____is positioned relative to the nearest positioned ancestor
+
+
+-------------------<java script>---------------------------------------------------
+there are four  section that we want to change static  to dynamic in our html page 
+
+* HOURS 
+* MINUTES
+* SECONDS
+*  AM/PM
+***********************************************************************************
+
+<script src="js file name">_ that js file must be located in a same directory
+
+
+constant  hourE1 = document .getelementbyid("hour")______ in order to change static
+       to dynamic  we need to get acess  html element by using getelementbyid method 
+
+
+*we repeat same for (minute,seconds and AM/PM)
+
+
+function updateClock() {_____ Here we are creating function.
+
+let h = new Date().getHours()___ Date constructor
+
+*same for Minutes & Second
+
+let ampm = "AM"_ we cant get this from computer so we are  keeping Am here for default
+           & going to apply logic to get pm 
+
+ hourE1.innerText = h_____ with the help of inner text method 
+                           we are writing the dynamic text on the html document
+
+
+updateClock()___ at last we are calling function.
+
+
+
+
+
