@@ -60,3 +60,8 @@ h1 {
     font-size: 20px;
     background: rgb(230, 247, 220);
 }
+fieldset{
+    color: aliceblue;
+    font-size: 50px;
+    justify-content: center;
+}

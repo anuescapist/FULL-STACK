@@ -18,6 +18,11 @@
 
 <span class="text">- Here we are assigning class to span tag
 
+fieldset:- is used for making category & legend for titling that 
+
+((for adding vedio in web page simply vist that vedio : click on share vedio: then choose embed share
+copy the link : paste in your html file ))
+
 <script src="file name">- here we are ading  java script  file that must be 
              present in same folder 
 
